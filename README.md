@@ -1,3 +1,5 @@
+### Not to be confused with lolcode (will be fixed later)
+
 This is public page of my thoughts on the new PL.
 The main purpose is to fight boredom, but also to create something
 that will provide cool features as Rust (traits, tuples) but also be
