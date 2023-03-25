@@ -17,7 +17,7 @@ Square: Class = {
     ~Square: () = println("Destructed");
 
     Area = { // I think this is a good middle point between rust way and c++ way
-        area = x * x;
+        area = x * x; // Return deduction;
     }
 
     Length = {
@@ -33,3 +33,5 @@ main: () = {
     s: Square = Square(10);
     print(s);
 }
+
+// C:

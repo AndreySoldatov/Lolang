@@ -10,7 +10,7 @@ String: Class = {
         }
     }
 
-    ~String: () = { // mi vse popadem v RAII, a oni prosto delete();
+    ~String: () = { // mi vse popadem v RAII, a oni prosto free();
         C {
             free(data);
         }
